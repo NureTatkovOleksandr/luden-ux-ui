@@ -42,5 +42,3 @@ Luden у Figma містить 15 desktop-кадрів 1440 × 900, 33 перех
 | `03_figma_prep/` | [Plan Review](03_figma_prep/04_Plan_Review.md), [Figma Brief](03_figma_prep/05_Figma_Brief_v0.1.md) |
 | `04_design/` | [Review Report і кадри Figma](04_design/06_Review_Report.md), [інвентар](04_design/Figma_Prototype_Inventory.json), [маніфест](04_design/Figma_Export_Manifest.json) |
 | `05_qa/` | [Журнал рев’ю](05_qa/AI_Interaction_Log.md), [Defect & Change Log](05_qa/Defect_Change_Log.md), [Test Cases](05_qa/Test_Cases.md) |
-
-Методична основа — «Від специфікації до перевіреного UX/UI-макета», §§ 1, 5–19, 21–22 та додатки A–C. [Репозиторій-зразок](https://github.com/NureSaltykovaYuliia/mini-issue-tracker-ux-ui)
