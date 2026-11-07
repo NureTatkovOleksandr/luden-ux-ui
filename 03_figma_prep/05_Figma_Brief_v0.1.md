@@ -1,31 +1,78 @@
-# Luden desktop wireframe brief
+# Бриф макета Luden
 
-**Draft for Control C.** Create a grayscale, 1440 px desktop design for a digital game storefront. Use one page, editable native layers, descriptive names, and reusable components with Auto Layout. Keep state references and testing annotations outside the product frames.
+**G5 · редакція timbuhtuk · 2026-11-07.** Джерело — [Luden у Figma](https://www.figma.com/design/1CKu1SyAbPWcXXN46RHeV2/Luden?node-id=2-52052). Документ описує наявний дизайн і вимоги до доопрацювання. Grayscale і Atlas Drift належать до попереднього HTML-прототипу.
 
-## Canonical frames
+## Формат і стиль
 
-| ID | Required content |
-| --- | --- |
-| S-01 | Email, password, Sign in, Create account link |
-| S-01-R | Email, password, confirm password, Create account |
-| S-02-A | Store header, search, cart, game cards with name and price |
-| S-02-B | Search input with an unmatched query and the empty results message. Include Clear search if D-04 is approved |
-| S-02-C | Product loading error distinct from an empty search |
-| M-01 | Game details overlay with title, price, Add to cart and Close |
-| M-02 | Cart overlay with line items, quantity, remove, total and Continue to payment. Align the right edge of the primary action with the total and use a 12 px vertical gap when D-05 is approved |
-| M-03 | Checkout overlay with total, currency, payment placeholder, Confirm and Cancel |
-| S-03-A | Profile, My Library tab with no purchases, and Store link |
-| S-03-B | Profile, My Library tab with the purchased sample game, and Store link |
+- Desktop: 15 кадрів **1440 × 900**, сторінка `Page 1`.
+- `Luden — Компоненти`: 31 компонент — поля, кнопки, картки восьми ігор, шапки, фільтри. У кадрах використано їхні екземпляри.
+- Світлі поверхні, червоний акцент Luden. Основні кольори в оглянутих S-01/S-02-A: #B93838, #FFFFFF, #E9ECEF, #212529, #6C757D. У деталях «До кошика» синя. Це опис оформлення, не повна система токенів.
+- Текст — Inter, логотип — Jaro. У вході й реєстрації ліворуч чорне поле з кольоровим орнаментом; у каталозі кольорові обкладинки.
+- M-01, M-02, M-02-E, M-03, M-03-E візуально є діалогами на затемненому каталозі. Технічно це повнорозмірні кадри з NAVIGATE, а не OPEN_OVERLAY. Поведінка Escape, фокуса й закриття HTML-діалогів на них автоматично не поширюється.
 
-Use **Atlas Drift** at **$24.99** as the main game and **Moon Relay** at **$14.99** as a second card. Repeat the title and price consistently through the catalogue, game details, and cart. Keep the sample order at one item with zero bonus points. Show loading, login error, empty cart with the primary action disabled, and declined payment as separate state references.
+## Кадри
 
-## Navigation intent
+| Кадр | Node ID | Експорт |
+| --- | --- | --- |
+| S-01 Вхід | `2:52052` | [PNG](../04_design/screenshots/figma/S-01_sign_in.png) |
+| S-01-R Реєстрація | `2:52096` | [PNG](../04_design/screenshots/figma/S-01-R_register.png) |
+| S-03-A Профіль — порожня бібліотека | `2:52139` | [PNG](../04_design/screenshots/figma/S-03-A_library_empty.png) |
+| S-02-A Каталог | `2:52179` | [PNG](../04_design/screenshots/figma/S-02-A_catalog.png) |
+| S-02-R Результат пошуку | `15:4715` | [PNG](../04_design/screenshots/figma/S-02-R_search_results.png) |
+| S-02-B Немає збігів | `2:52328` | [PNG](../04_design/screenshots/figma/S-02-B_search_empty.png) |
+| S-02-C Помилка каталогу | `2:52379` | [PNG](../04_design/screenshots/figma/S-02-C_catalog_error.png) |
+| M-01 Деталі Cyberpunk 2077 | `2:52427` | [PNG](../04_design/screenshots/figma/M-01_game_details.png) |
+| M-02 Кошик | `2:52610` | [PNG](../04_design/screenshots/figma/M-02_cart.png) |
+| M-02-E Кошик — порожній | `2:52794` | [PNG](../04_design/screenshots/figma/M-02-E_cart_empty.png) |
+| M-03 Оплата | `2:52968` | [PNG](../04_design/screenshots/figma/M-03_checkout.png) |
+| M-03-E Оплата — відмова | `2:53156` | [PNG](../04_design/screenshots/figma/M-03-E_payment_declined.png) |
+| S-03-B Профіль — бібліотека після покупки | `2:53349` | [PNG](../04_design/screenshots/figma/S-03-B_library_purchase.png) |
+| S-02-P Каталог після покупки | `15:4019` | [PNG](../04_design/screenshots/figma/S-02-P_catalog_purchased.png) |
+| S-02-RP Результат пошуку після покупки | `15:5411` | [PNG](../04_design/screenshots/figma/S-02-RP_search_purchased.png) |
 
-- S-01 → S-03-A → S-02-A → M-01 → M-02 → M-03 → S-03-B.
-- S-02-A → S-02-B for an unmatched query. Clearing that query returns to the sample catalogue.
-- Closing a game or cart overlay returns to the catalogue. Cancelling checkout returns to the cart.
-- The checkout success link goes to a prepared library frame. A declined payment reference stays at checkout.
+Окремих кадрів помилки входу й завантаження каталогу немає. Старі REF-01/REF-02 — зображення HTML, не експорти цього файлу.
 
-Keep the buyer flow free of catalogue editing actions. Document role restrictions in the screen contract and prototype annotations. A real login, payment, licence issue, database change, and server authorization are implementation checks. Google sign-in, password recovery, bonus controls, currency conversion and mobile layouts are outside this wireframe set.
+## Дані й тексти
 
-Before handing off, verify the frame IDs, shared data, overlays, disabled checkout, no-results recovery and simulated checkout outcome. Keep the initial editable snapshot separate from the reviewed version.
+Головна гра — **Cyberpunk 2077**, **$24.99 USD**, кількість **1**. Ціна узгоджена в каталозі, деталях, кошику й оплаті; бібліотека після підтвердження містить ту саму назву. Значення є даними макета, а не актуальною пропозицією продажу.
+
+| Гра | Ціна в макеті |
+| --- | ---: |
+| Cyberpunk 2077 | $24.99 |
+| Hollow Knight: Silksong | $19.99 |
+| PEAK | $7.99 |
+| Hades II | $29.99 |
+| Stardew Valley | $14.99 |
+| Hollow Knight | $14.99 |
+| Celeste | $19.99 |
+| Balatro | $14.99 |
+
+Позитивний пошук: `Cyberpunk 2077`, одна картка. Порожній: `zz-no-match`, «Нічого не знайдено», «Очистити пошук». Помилка каталогу має окремі заголовок і кнопку «Спробувати ще раз».
+
+Порожній кошик: $0.00 і недоступне оформлення. Покупка: $24.99 USD, бонуси 0. Повідомлення оплати прямо вказують, що кошти не списуються. Вимога появи гри лише після успішної оплати зберігається; макет показує підготовлений результат.
+
+Позначку −50% слід доповнити базовою ціною або прибрати. «Щонайменше 8 символів» потребує рішення Q-11, узгодженого з API. Рекомендований текст порожньої бібліотеки: «Придбані ігри з’являться тут після успішної оплати». Це рекомендації до наступної правки Figma, а не вже внесені зміни.
+
+## Налаштована навігація
+
+```text
+S-01 ↔ S-01-R
+S-01 / S-01-R → S-03-A → S-02-A → M-01 → M-02 → M-03 → S-03-B
+S-02-A → S-02-R → S-02-B → S-02-A
+S-02-R ─ Очистити → S-02-A
+M-02 ─ Видалити → M-02-E ─ Закрити → S-02-A
+M-03 / M-03-E ─ Скасувати → M-02
+M-03-E ─ Спробувати ще раз → M-03
+S-02-C ─ Спробувати ще раз → S-02-A
+S-03-B → S-02-P → S-02-RP ─ Очистити → S-02-P
+```
+
+Початкові потоки: **«Покупка гри»** (S-01), **«Відмова оплати»** (M-03-E), **«Помилка каталогу»** (S-02-C). Пошук показує готові стани по кліку на поле. «До кошика» відкриває кошик одразу. Повні зв’язки, включно з проблемними поверненнями після покупки, наведено в [інвентарі](../04_design/Figma_Prototype_Inventory.json).
+
+## Доопрацювання й передача
+
+Усі 33 AC зіставлено в [Plan Review](04_Plan_Review.md). Потрібні збереження контексту покупки й пошуку, вибір жанру зі збереженням при очищенні, перемикач пароля, помилки форм, завантаження та стан обробки оплати. Наявність іконки не означає працюючий контрол.
+
+Google, відновлення пароля, обране та списання бонусів лишаються Deferred за [Baseline](../01_requirements/00_Product_Baseline.md). Видимі елементи не розширюють Release MVP. Гостьовий доступ, Admin, копії гри, сесія та Paid/Completed визначаються вимогами й відкритими рішеннями.
+
+Перед прийманням пройти Present за F-T01…F-T06, закрити погоджені F-01…F-06 і провести мінітест. Передавати разом бриф, дату зрізу, node ID, PNG та результати перевірок. Експорт зафіксовано в [маніфесті](../04_design/Figma_Export_Manifest.json).

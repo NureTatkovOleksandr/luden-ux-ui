@@ -1,0 +1,143 @@
+{
+  "fileKey": "1CKu1SyAbPWcXXN46RHeV2",
+  "source": "https://www.figma.com/design/1CKu1SyAbPWcXXN46RHeV2/Luden",
+  "exportDate": "2026-11-07",
+  "method": "Figma node export; no content edits",
+  "exports": [
+    {
+      "nodeId": "2:53349",
+      "name": "S-03-B Профіль — бібліотека після покупки",
+      "file": "screenshots/figma/S-03-B_library_purchase.png",
+      "width": 1440,
+      "height": 900,
+      "bytes": 45775,
+      "sha256": "a7e912314934afdce03668121522b64cd4b09c08eae8b35e580158159e95e233"
+    },
+    {
+      "nodeId": "2:53156",
+      "name": "M-03-E Оплата — відмова",
+      "file": "screenshots/figma/M-03-E_payment_declined.png",
+      "width": 1440,
+      "height": 900,
+      "bytes": 272893,
+      "sha256": "b5740546d0176d15234e24c4fe24a735377e85e2e9dc3560550a589b52e549c3"
+    },
+    {
+      "nodeId": "2:52968",
+      "name": "M-03 Оплата",
+      "file": "screenshots/figma/M-03_checkout.png",
+      "width": 1440,
+      "height": 900,
+      "bytes": 252745,
+      "sha256": "8d55135100097c303333779cc1a06fad0e4cdb191b83937e2f98e920163c5137"
+    },
+    {
+      "nodeId": "2:52794",
+      "name": "M-02-E Кошик — порожній",
+      "file": "screenshots/figma/M-02-E_cart_empty.png",
+      "width": 1440,
+      "height": 900,
+      "bytes": 214086,
+      "sha256": "401c4f170a6f0a55d502dcefce242dba1faa9da69b402a0e80c577ef579f251e"
+    },
+    {
+      "nodeId": "2:52610",
+      "name": "M-02 Кошик",
+      "file": "screenshots/figma/M-02_cart.png",
+      "width": 1440,
+      "height": 900,
+      "bytes": 236465,
+      "sha256": "64e728f899b39a163783988f673b55c553431af69367457eaf8c2890a319c78e"
+    },
+    {
+      "nodeId": "2:52427",
+      "name": "M-01 Деталі Cyberpunk 2077",
+      "file": "screenshots/figma/M-01_game_details.png",
+      "width": 1440,
+      "height": 900,
+      "bytes": 239912,
+      "sha256": "ce10587d22deed954119c29b3960cdaf09fab78d4cd7456f7f86d9543ce23536"
+    },
+    {
+      "nodeId": "2:52379",
+      "name": "S-02-C Помилка каталогу",
+      "file": "screenshots/figma/S-02-C_catalog_error.png",
+      "width": 1440,
+      "height": 900,
+      "bytes": 37729,
+      "sha256": "aced8dcb12ae092cd47ebbc7c3ad1a3d0277442c5a04e70230f6c8a8a362ef68"
+    },
+    {
+      "nodeId": "2:52328",
+      "name": "S-02-B Немає збігів",
+      "file": "screenshots/figma/S-02-B_search_empty.png",
+      "width": 1440,
+      "height": 900,
+      "bytes": 38912,
+      "sha256": "4bf41d7374e2953ec2a54607a509d358cb5c1f1ef9b252a073d5b20effd5d8b1"
+    },
+    {
+      "nodeId": "2:52179",
+      "name": "S-02-A Каталог",
+      "file": "screenshots/figma/S-02-A_catalog.png",
+      "width": 1440,
+      "height": 900,
+      "bytes": 169110,
+      "sha256": "93c86172664ad8628914c95f6b39f1128c5d666baa4bbcaa7d5aaa0a522e8f96"
+    },
+    {
+      "nodeId": "2:52139",
+      "name": "S-03-A Профіль — порожня бібліотека",
+      "file": "screenshots/figma/S-03-A_library_empty.png",
+      "width": 1440,
+      "height": 900,
+      "bytes": 38458,
+      "sha256": "f9b65d74f859633f9a9334c52ca3d3f8ad17e0774e8345e6a92053e88e1a6e2b"
+    },
+    {
+      "nodeId": "2:52096",
+      "name": "S-01-R Реєстрація",
+      "file": "screenshots/figma/S-01-R_register.png",
+      "width": 1440,
+      "height": 900,
+      "bytes": 73052,
+      "sha256": "4f0e22adf3aa7ff109770f8b8badb5668ac0bc76a2df580c1e29420460cb7169"
+    },
+    {
+      "nodeId": "2:52052",
+      "name": "S-01 Вхід",
+      "file": "screenshots/figma/S-01_sign_in.png",
+      "width": 1440,
+      "height": 900,
+      "bytes": 65960,
+      "sha256": "19300c05fc64753475aab5e5c05e1418bc755ed6fee9f6b6dfea87d8a05f2a3c"
+    },
+    {
+      "nodeId": "15:4019",
+      "name": "S-02-P Каталог після покупки",
+      "file": "screenshots/figma/S-02-P_catalog_purchased.png",
+      "width": 1440,
+      "height": 900,
+      "bytes": 169013,
+      "sha256": "5723cf8e8df2b6b26248fa5eda923160814eaf3e290a877aaf4ab8d8816c13cf"
+    },
+    {
+      "nodeId": "15:4715",
+      "name": "S-02-R Результат пошуку",
+      "file": "screenshots/figma/S-02-R_search_results.png",
+      "width": 1440,
+      "height": 900,
+      "bytes": 41747,
+      "sha256": "f61ca9aa2ba3643dd6e0a9c10900c3c5124b8e242e80f20a1bc1f5e7a7e7379c"
+    },
+    {
+      "nodeId": "15:5411",
+      "name": "S-02-RP Результат пошуку після покупки",
+      "file": "screenshots/figma/S-02-RP_search_purchased.png",
+      "width": 1440,
+      "height": 900,
+      "bytes": 42129,
+      "sha256": "596bb338e60da6ba2932f3927cf5aa1aa5183a97330ca7bf1ab5e82490f8d798"
+    }
+  ]
+}
