@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; base-uri 'none'; form-action 'none'">
+  <title>Luden · Демонстраційний чат</title>
+  <style>
+    :root { color-scheme: light; --ink: #202238; --muted: #53596d; --line: #dbe0ec; --accent: #493aa3; --team: #efebff; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #f6f7fb; color: var(--ink); font: 1rem/1.55 system-ui, sans-serif; }
+    main { max-width: 58rem; margin: auto; padding: 3rem 1.25rem 4rem; }
+    h1 { margin: .35rem 0 .6rem; font-size: clamp(1.9rem, 5vw, 3rem); line-height: 1.14; }
+    h2 { margin: .2rem 0 1.3rem; font-size: 1.35rem; }
+    .eyebrow, .speaker { font-size: .8rem; font-weight: 700; color: var(--accent); }
+    .intro { max-width: 42rem; margin: 0; color: var(--muted); }
+    nav { display: flex; flex-wrap: wrap; gap: .55rem; margin: 1.35rem 0 2rem; }
+    nav a { padding: .35rem .7rem; border: 1px solid var(--line); border-radius: 6px; background: white; color: var(--accent); text-decoration: none; font-size: .875rem; }
+    nav a:hover, nav a:focus-visible { border-color: var(--accent); text-decoration: underline; }
+    .thread { margin-bottom: 1.2rem; padding: clamp(1rem, 3.6vw, 2rem); border: 1px solid var(--line); border-radius: 14px; background: white; }
+    .messages { margin: 0; padding: 0; list-style: none; display: grid; gap: .85rem; }
+    .message { width: fit-content; max-width: min(86%, 40rem); padding: .7rem 1rem; border: 1px solid var(--line); border-radius: 12px; background: #f6f7fb; }
+    .team { justify-self: end; background: var(--team); border-color: #dbd3fa; }
+    .message p { margin: .25rem 0 0; overflow-wrap: anywhere; }
+    @media (max-width: 38rem) { main { padding-top: 1.8rem; } .message { max-width: 96%; } }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="eyebrow">LUDEN UX/UI · ДЕМОНСТРАЦІЯ</div>
+      <h1>Чат рев’ю Luden</h1>
+      <p class="intro">Змодельований діалог для захисту. Усі 18 реплік збережені в журналі. Сторінка показує переписку в режимі читання.</p>
+      <nav aria-label="Демонстраційні кейси">
+        <a href="#demo-01">01 · Вирівнювання кнопки</a>
+        <a href="#demo-02">02 · Пріоритет бонусів</a>
+        <a href="#demo-03">03 · Порожній пошук</a>
+        <a href="#demo-04">04 · Права покупця</a>
+        <a href="#demo-05">05 · Доказ оплати</a>
+        <a href="#demo-06">06 · Скидання пароля</a>
+      </nav>
+    </header>
+    <section class="thread" id="demo-01">
+      <div class="eyebrow">DEMO-01 · F2 · Кошик</div>
+      <h2>Вирівнювання кнопки</h2>
+      <ol class="messages">
+        <li class="message team" data-turn="01">
+          <div class="speaker">01 · Команда</div>
+          <p>У M-02 кнопка «До оплати» по центру, а підсумкова сума справа. На цьому кадрі кнопка виглядає окремою від підсумку. Вирівняй її правим краєм по сумі й покажи, як я зможу це перевірити.</p>
+        </li>
+        <li class="message assistant" data-turn="02">
+          <div class="speaker">02 · Асистент</div>
+          <p>Для M-02 / C-12 пропоную такий фрагмент: «Кнопка і підсумкова сума стоять в одному вертикальному Auto Layout. Праві краї збігаються, проміжок між сумою і кнопкою — 12 px». Стан disabled для порожнього кошика зберігається. Для перевірки виділи обидва шари і звір їхні праві краї на кадрі 1440 px.</p>
+        </li>
+        <li class="message team" data-turn="03">
+          <div class="speaker">03 · Команда</div>
+          <p>Добре. Ще покажи порожній кошик. Там після вирівнювання кнопка має лишитися сірою і без переходу.</p>
+        </li>
+        <li class="message assistant" data-turn="04">
+          <div class="speaker">04 · Асистент</div>
+          <p>Додаю до сценарію перевірки T-11 дві умови: краї збігаються на обох варіантах M-02, а на порожньому варіанті C-12 має стан disabled і не відкриває M-03. Для доказу потрібні кадри до й після та перевірка кліку в Present.</p>
+        </li>
+      </ol>
+    </section>
+    <section class="thread" id="demo-02">
+      <div class="eyebrow">DEMO-02 · G1 / G4 · Вимоги</div>
+      <h2>Пріоритет бонусів</h2>
+      <ol class="messages">
+        <li class="message team" data-turn="05">
+          <div class="speaker">05 · Команда</div>
+          <p>У чернетці US-07 написано «використати бонуси обов’язково», і на цьому стоїть High. Я можу купити гру без бонусів. Виправ обов’язковість і пріоритет, щоб у нас не вийшло, що покупка без балів блокується.</p>
+        </li>
+        <li class="message assistant" data-turn="06">
+          <div class="speaker">06 · Асистент</div>
+          <p>Розділяю два пункти. «Оформити замовлення» лишається Must / High. «Списати бонуси» стає Optional / Low для першого прототипу. Нова редакція AC-07.2: «Оформлення доступне без списання бонусів, зі значенням 0». У коді кошика початкове значення вже 0. У T-08 використовуємо саме його.</p>
+        </li>
+        <li class="message team" data-turn="07">
+          <div class="speaker">07 · Команда</div>
+          <p>Тобто у Figma для цього проходу окремого поля бонусів не треба?</p>
+        </li>
+        <li class="message assistant" data-turn="08">
+          <div class="speaker">08 · Асистент</div>
+          <p>Так. У M-03 показуємо підсумок без списання. Блок бонусів описуємо як відкладений для макета. У перевірці дивимось, що кнопка оформлення доступна з товаром у кошику і нулем бонусів.</p>
+        </li>
+      </ol>
+    </section>
+    <section class="thread" id="demo-03">
+      <div class="eyebrow">DEMO-03 · G2 / G3 · Навігація</div>
+      <h2>Порожній пошук</h2>
+      <ol class="messages">
+        <li class="message team" data-turn="09">
+          <div class="speaker">09 · Команда</div>
+          <p>У порожньому пошуку є тільки напис «Нічого не знайдено». Покажи, як повернутись до товарів. Фільтр жанру чіпати не треба.</p>
+        </li>
+        <li class="message assistant" data-turn="10">
+          <div class="speaker">10 · Асистент</div>
+          <p>Для S-02-B пропоную C-07 «Очистити пошук» під повідомленням. TR-04 очищає тільки рядок пошуку, тому каталог знову показує ігри чинного жанру. У реалізації вже можна вручну стерти текст. Окрема кнопка є пропозицією для макета, тому її зв’язую з D-04 і Q-03.</p>
+        </li>
+        <li class="message team" data-turn="11">
+          <div class="speaker">11 · Команда</div>
+          <p>Для тесту візьми запит, якого точно нема, і залиш жанр вибраним. Так буде видно, що очищається саме пошук.</p>
+        </li>
+        <li class="message assistant" data-turn="12">
+          <div class="speaker">12 · Асистент</div>
+          <p>У T-04 спочатку обираємо жанр, потім вводимо <code>zz-no-match</code>. Очікуємо порожній стан. Після очищення повертаються картки цього жанру, а сам фільтр лишається активним.</p>
+        </li>
+      </ol>
+    </section>
+    <section class="thread" id="demo-04">
+      <div class="eyebrow">DEMO-04 · G4 · Ролі</div>
+      <h2>Права покупця</h2>
+      <ol class="messages">
+        <li class="message team" data-turn="13">
+          <div class="speaker">13 · Команда</div>
+          <p>На картці гри в потоці покупця видно «Редагувати». У матриці ця дія тільки для Admin. Виправ опис кадру і скажи, де ми перевіримо, що покупець реально не може редагувати товар.</p>
+        </li>
+        <li class="message assistant" data-turn="14">
+          <div class="speaker">14 · Асистент</div>
+          <p>У S-02-A для покупця прибираємо «Редагувати» з переліку видимих контролів. У матриці BR-02 лишаємо, що керування товарами доступне Admin. Кадр підтверджує видимість кнопки. Для серверної перевірки T-10 потрібно відправити валідний запит на зміну тестового товару з токеном покупця і отримати 403.</p>
+        </li>
+      </ol>
+    </section>
+    <section class="thread" id="demo-05">
+      <div class="eyebrow">DEMO-05 · G6 · QA</div>
+      <h2>Доказ оплати</h2>
+      <ol class="messages">
+        <li class="message team" data-turn="15">
+          <div class="speaker">15 · Команда</div>
+          <p>У QA написано «оплата пройшла», бо в Present після кнопки відкрилась бібліотека. Ми карткою нічого не платили. Виправ висновок.</p>
+        </li>
+        <li class="message assistant" data-turn="16">
+          <div class="speaker">16 · Асистент</div>
+          <p>Для прототипу формулювання таке: «Після підтвердження відкривається підготовлений S-03-B з Atlas Drift. Перевірено прототипний перехід, оплата симульована». Рядок про Stripe, зміну статусу й видачу ліцензії отримує <code>NOT RUN</code> до окремого тесту застосунку.</p>
+        </li>
+      </ol>
+    </section>
+    <section class="thread" id="demo-06">
+      <div class="eyebrow">DEMO-06 · G1 / G4 · Межі MVP</div>
+      <h2>Скидання пароля</h2>
+      <ol class="messages">
+        <li class="message team" data-turn="17">
+          <div class="speaker">17 · Команда</div>
+          <p>У вимогах було «користувач отримує лист», але у формі скидання є тільки повідомлення. Винеси це з основного MVP і залиш запис, що саме перевірити пізніше.</p>
+        </li>
+        <li class="message assistant" data-turn="18">
+          <div class="speaker">18 · Асистент</div>
+          <p>У межах Release MVP переношу скидання пароля в Deferred. Для рев’ю фіксую спостереження: обробник показує повідомлення та повертає на вхід, а виклику API в ньому немає. Для закриття потрібен тест, у якому запит доходить до сервера і тестовий лист приходить на контрольну адресу. Зараз у журналі статус OPEN.</p>
+        </li>
+      </ol>
+    </section>
+  </main>
+</body>
+</html>
