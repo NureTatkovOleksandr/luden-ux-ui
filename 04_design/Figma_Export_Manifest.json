@@ -2,7 +2,7 @@
   "fileKey": "1CKu1SyAbPWcXXN46RHeV2",
   "source": "https://www.figma.com/design/1CKu1SyAbPWcXXN46RHeV2/Luden",
   "exportDate": "2026-11-07",
-  "method": "Figma node export; no content edits",
+  "method": "Fresh PNG export of every prototype frame via Figma.",
   "exports": [
     {
       "nodeId": "2:53349",
@@ -139,5 +139,6 @@
       "bytes": 42129,
       "sha256": "596bb338e60da6ba2932f3927cf5aa1aa5183a97330ca7bf1ab5e82490f8d798"
     }
-  ]
+  ],
+  "verifiedAt": "2026-11-07T18:43:01+02:00"
 }

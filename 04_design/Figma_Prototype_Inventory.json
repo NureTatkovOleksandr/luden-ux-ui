@@ -2,7 +2,12 @@
   "source": "https://www.figma.com/design/1CKu1SyAbPWcXXN46RHeV2/Luden",
   "fileKey": "1CKu1SyAbPWcXXN46RHeV2",
   "reviewDate": "2026-11-07",
-  "method": "Figma node text and configured reactions; exported frames visually reviewed. Present interaction not executed.",
+  "method": "Figma frame text and configured reactions. PNG exports reviewed separately. Present: NOT RUN.",
+  "page": {
+    "id": "0:1",
+    "name": "Page 1"
+  },
+  "componentCount": 31,
   "flowStartingPoints": [
     {
       "nodeId": "2:52052",
