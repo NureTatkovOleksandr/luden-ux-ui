@@ -46,7 +46,7 @@ function library() {
   const hasGames = state.library.size > 0;
   const body = hasGames
     ? '<div class="cards">' + games.filter(game => state.library.has(game.id)).map(game => gameCard(game, true)).join('') + '</div>'
-    : '<div class="box state"><h3>У бібліотеці ще немає ігор</h3><p>Придбані ігри з’являться тут після оформлення замовлення.</p></div>';
+    : '<div class="box state"><h3>У бібліотеці ще немає ігор</h3><p>Придбані ігри з’являться тут після успішної оплати.</p></div>';
   return '<section class="workspace stack"><div class="heading"><div><span class="screen-id">' +
     (hasGames ? 'S-03-B' : 'S-03-A') + '</span><h1>Профіль</h1></div>' +
     button('catalog', 'Магазин', 'primary') + '</div><h2>Моя бібліотека</h2>' + body + '</section>';
@@ -109,7 +109,7 @@ function modal() {
     title = 'Оплата';
     body = '<div class="split"><strong>До сплати</strong><p class="total">' + formatPrice(total()) + ' USD</p></div>' +
       '<div class="box"><strong>Демонстраційна картка</strong><p>Бонуси 0 · Симуляція платежу</p></div>' +
-      notice(state.decline ? 'Оплату відхилено. Перевірте дані й спробуйте ще раз.' : '') +
+      notice(state.decline ? 'Оплату відхилено. Спробуйте ще раз або поверніться до кошика.' : '') +
       '<div class="split">' + button('cancel', 'Скасувати', '', state.processing) +
       button('confirm', state.processing ? 'Обробка…' : 'Підтвердити', 'primary', state.processing) + '</div>';
   }
