@@ -6,7 +6,7 @@ Luden у Figma містить 15 desktop-кадрів 1440 × 900, 33 перех
 
 ## Робочі матеріали
 
-- [Luden у Figma](https://www.figma.com/design/1CKu1SyAbPWcXXN46RHeV2/Luden?node-id=2-52052) · [Бриф](03_figma_prep/05_Figma_Brief_v0.1.md) · [Покриття 33 AC](03_figma_prep/04_Plan_Review.md)
+- [Luden у Figma](https://www.figma.com/community/file/1700961790605683605) · [Бриф](03_figma_prep/05_Figma_Brief_v0.1.md) · [Покриття 33 AC](03_figma_prep/04_Plan_Review.md)
 - [Кадри та результати візуального огляду](04_design/06_Review_Report.md)
 - [Огляд зауважень і рекомендацій](05_qa/Demo_Chat.html) · [Журнал рев’ю](05_qa/AI_Interaction_Log.md)
 - [План відеозахисту](05_qa/Defense_Guide.md)
