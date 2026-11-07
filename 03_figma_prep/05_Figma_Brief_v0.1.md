@@ -1,6 +1,6 @@
 # Бриф макета Luden
 
-**G5 · редакція timbuhtuk · 2026-11-07.** Джерело — [Luden у Figma](https://www.figma.com/design/1CKu1SyAbPWcXXN46RHeV2/Luden?node-id=2-52052). Документ описує наявний дизайн і вимоги до доопрацювання.
+Джерело — [Luden у Figma](https://www.figma.com/design/1CKu1SyAbPWcXXN46RHeV2/Luden?node-id=2-52052). Документ описує наявний дизайн і вимоги до доопрацювання.
 
 ## Формат і стиль
 

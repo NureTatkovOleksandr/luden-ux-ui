@@ -1,6 +1,6 @@
 # Протокол перевірок Luden
 
-**Редакція timbuhtuk · 2026-11-07.** Об’єкт огляду — 15 кадрів Figma та 33 налаштовані переходи. Тексти, PNG і граф звірено з файлом. Ручний прогін Present, мінітест і перевірки застосунку мають статус **NOT RUN**. [Макет](https://www.figma.com/design/1CKu1SyAbPWcXXN46RHeV2/Luden?node-id=2-52052) · [Інвентар](../04_design/Figma_Prototype_Inventory.json)
+Об’єкт огляду — 15 кадрів Figma та 33 налаштовані переходи. Тексти, PNG і граф звірено з файлом. Ручний прогін Present, мінітест і перевірки застосунку мають статус **NOT RUN**. [Макет](https://www.figma.com/design/1CKu1SyAbPWcXXN46RHeV2/Luden?node-id=2-52052) · [Інвентар](../04_design/Figma_Prototype_Inventory.json)
 
 ## Перевірки Figma у Present
 

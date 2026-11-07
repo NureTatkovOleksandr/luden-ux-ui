@@ -1,6 +1,6 @@
 # Огляд макета Luden
 
-**G6 · редакція timbuhtuk · 2026-11-07.** Актуальний дизайн — [Figma](https://www.figma.com/design/1CKu1SyAbPWcXXN46RHeV2/Luden?node-id=2-52052). Повторно експортовано 15 кадрів і звірено тексти, розміри та налаштовані переходи.
+Актуальний дизайн — [Figma](https://www.figma.com/design/1CKu1SyAbPWcXXN46RHeV2/Luden?node-id=2-52052). Повторно експортовано 15 кадрів і звірено тексти, розміри та налаштовані переходи.
 
 ## Актуальні кадри Figma
 

@@ -1,6 +1,6 @@
 # Журнал рев’ю Luden
 
-**Редакція timbuhtuk · 2026-11-07.** Перевірено кадри, видимі тексти й налаштовані переходи поточного прототипу. [Figma](https://www.figma.com/design/1CKu1SyAbPWcXXN46RHeV2/Luden?node-id=2-52052)
+Перевірено кадри, видимі тексти й налаштовані переходи поточного прототипу. [Figma](https://www.figma.com/design/1CKu1SyAbPWcXXN46RHeV2/Luden?node-id=2-52052)
 
 | Що зіставлено | Результат |
 | --- | --- |
