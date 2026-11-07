@@ -4,7 +4,7 @@
 
 Кадри у `04_design/screenshots/` належать HTML-прототипу з Atlas Drift. Cyberpunk 2077 використовується в окремому прототипі Figma.
 
-[Чат рев’ю](Demo_Chat.html) · [Основний журнал реплік](AI_Interaction_Log.md)
+[Огляд зауважень](Demo_Review_Script.md) · [Основний журнал реплік](AI_Interaction_Log.md)
 
 ## Вимоги
 
@@ -144,7 +144,7 @@
 
 ### PR-09 · Prototype.html
 
-[04_design/Prototype.html](https://github.com/NureTatkovOleksandr/luden-ux-ui/blob/822a688a04bce5167f44226efbec952069042b6c/04_design/Prototype.html)
+`04_design/Prototype.html`
 
 **Команда · початковий промпт**
 
@@ -160,7 +160,7 @@
 
 ### PR-10 · prototype.css
 
-[04_design/prototype.css](https://github.com/NureTatkovOleksandr/luden-ux-ui/blob/822a688a04bce5167f44226efbec952069042b6c/04_design/prototype.css)
+`04_design/prototype.css`
 
 **Команда · початковий промпт**
 
@@ -176,7 +176,7 @@
 
 ### PR-11 · prototype.js
 
-[04_design/prototype.js](https://github.com/NureTatkovOleksandr/luden-ux-ui/blob/822a688a04bce5167f44226efbec952069042b6c/04_design/prototype.js)
+`04_design/prototype.js`
 
 **Команда · початковий промпт**
 
@@ -194,7 +194,7 @@
 
 ### PR-12 · M-01_game_details.png
 
-[04_design/screenshots/M-01_game_details.png](https://github.com/NureTatkovOleksandr/luden-ux-ui/blob/822a688a04bce5167f44226efbec952069042b6c/04_design/screenshots/M-01_game_details.png)
+`04_design/screenshots/M-01_game_details.png`
 
 **Команда · початковий промпт**
 
@@ -210,7 +210,7 @@
 
 ### PR-13 · M-02_before_review.png
 
-[04_design/screenshots/M-02_before_review.png](https://github.com/NureTatkovOleksandr/luden-ux-ui/blob/822a688a04bce5167f44226efbec952069042b6c/04_design/screenshots/M-02_before_review.png)
+`04_design/screenshots/M-02_before_review.png`
 
 **Команда · початковий промпт**
 
@@ -226,7 +226,7 @@
 
 ### PR-14 · M-02_cart.png
 
-[04_design/screenshots/M-02_cart.png](https://github.com/NureTatkovOleksandr/luden-ux-ui/blob/822a688a04bce5167f44226efbec952069042b6c/04_design/screenshots/M-02_cart.png)
+`04_design/screenshots/M-02_cart.png`
 
 **Команда · початковий промпт**
 
@@ -242,7 +242,7 @@
 
 ### PR-15 · M-03_checkout.png
 
-[04_design/screenshots/M-03_checkout.png](https://github.com/NureTatkovOleksandr/luden-ux-ui/blob/822a688a04bce5167f44226efbec952069042b6c/04_design/screenshots/M-03_checkout.png)
+`04_design/screenshots/M-03_checkout.png`
 
 **Команда · початковий промпт**
 
@@ -258,7 +258,7 @@
 
 ### PR-16 · REF-01_login_error.png
 
-[04_design/screenshots/REF-01_login_error.png](https://github.com/NureTatkovOleksandr/luden-ux-ui/blob/822a688a04bce5167f44226efbec952069042b6c/04_design/screenshots/REF-01_login_error.png)
+`04_design/screenshots/REF-01_login_error.png`
 
 **Команда · початковий промпт**
 
@@ -274,7 +274,7 @@
 
 ### PR-17 · REF-02_catalog_loading.png
 
-[04_design/screenshots/REF-02_catalog_loading.png](https://github.com/NureTatkovOleksandr/luden-ux-ui/blob/822a688a04bce5167f44226efbec952069042b6c/04_design/screenshots/REF-02_catalog_loading.png)
+`04_design/screenshots/REF-02_catalog_loading.png`
 
 **Команда · початковий промпт**
 
@@ -290,7 +290,7 @@
 
 ### PR-18 · REF-03_cart_empty.png
 
-[04_design/screenshots/REF-03_cart_empty.png](https://github.com/NureTatkovOleksandr/luden-ux-ui/blob/822a688a04bce5167f44226efbec952069042b6c/04_design/screenshots/REF-03_cart_empty.png)
+`04_design/screenshots/REF-03_cart_empty.png`
 
 **Команда · початковий промпт**
 
@@ -306,7 +306,7 @@
 
 ### PR-19 · REF-04_payment_declined.png
 
-[04_design/screenshots/REF-04_payment_declined.png](https://github.com/NureTatkovOleksandr/luden-ux-ui/blob/822a688a04bce5167f44226efbec952069042b6c/04_design/screenshots/REF-04_payment_declined.png)
+`04_design/screenshots/REF-04_payment_declined.png`
 
 **Команда · початковий промпт**
 
@@ -322,7 +322,7 @@
 
 ### PR-20 · S-01-R_register.png
 
-[04_design/screenshots/S-01-R_register.png](https://github.com/NureTatkovOleksandr/luden-ux-ui/blob/822a688a04bce5167f44226efbec952069042b6c/04_design/screenshots/S-01-R_register.png)
+`04_design/screenshots/S-01-R_register.png`
 
 **Команда · початковий промпт**
 
@@ -338,7 +338,7 @@
 
 ### PR-21 · S-01_sign_in.png
 
-[04_design/screenshots/S-01_sign_in.png](https://github.com/NureTatkovOleksandr/luden-ux-ui/blob/822a688a04bce5167f44226efbec952069042b6c/04_design/screenshots/S-01_sign_in.png)
+`04_design/screenshots/S-01_sign_in.png`
 
 **Команда · початковий промпт**
 
@@ -354,7 +354,7 @@
 
 ### PR-22 · S-02-A_catalog.png
 
-[04_design/screenshots/S-02-A_catalog.png](https://github.com/NureTatkovOleksandr/luden-ux-ui/blob/822a688a04bce5167f44226efbec952069042b6c/04_design/screenshots/S-02-A_catalog.png)
+`04_design/screenshots/S-02-A_catalog.png`
 
 **Команда · початковий промпт**
 
@@ -370,7 +370,7 @@
 
 ### PR-23 · S-02-B_search_empty.png
 
-[04_design/screenshots/S-02-B_search_empty.png](https://github.com/NureTatkovOleksandr/luden-ux-ui/blob/822a688a04bce5167f44226efbec952069042b6c/04_design/screenshots/S-02-B_search_empty.png)
+`04_design/screenshots/S-02-B_search_empty.png`
 
 **Команда · початковий промпт**
 
@@ -386,7 +386,7 @@
 
 ### PR-24 · S-02-C_catalog_error.png
 
-[04_design/screenshots/S-02-C_catalog_error.png](https://github.com/NureTatkovOleksandr/luden-ux-ui/blob/822a688a04bce5167f44226efbec952069042b6c/04_design/screenshots/S-02-C_catalog_error.png)
+`04_design/screenshots/S-02-C_catalog_error.png`
 
 **Команда · початковий промпт**
 
@@ -402,7 +402,7 @@
 
 ### PR-25 · S-03-A_library_empty.png
 
-[04_design/screenshots/S-03-A_library_empty.png](https://github.com/NureTatkovOleksandr/luden-ux-ui/blob/822a688a04bce5167f44226efbec952069042b6c/04_design/screenshots/S-03-A_library_empty.png)
+`04_design/screenshots/S-03-A_library_empty.png`
 
 **Команда · початковий промпт**
 
@@ -418,7 +418,7 @@
 
 ### PR-26 · S-03-B_library_purchase.png
 
-[04_design/screenshots/S-03-B_library_purchase.png](https://github.com/NureTatkovOleksandr/luden-ux-ui/blob/822a688a04bce5167f44226efbec952069042b6c/04_design/screenshots/S-03-B_library_purchase.png)
+`04_design/screenshots/S-03-B_library_purchase.png`
 
 **Команда · початковий промпт**
 
@@ -484,7 +484,7 @@
 
 ### PR-30 · Demo_Chat.html
 
-[05_qa/Demo_Chat.html](https://github.com/NureTatkovOleksandr/luden-ux-ui/blob/822a688a04bce5167f44226efbec952069042b6c/05_qa/Demo_Chat.html)
+`05_qa/Demo_Chat.html`
 
 **Команда · початковий промпт**
 

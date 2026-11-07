@@ -8,7 +8,7 @@ Luden у Figma містить 15 desktop-кадрів 1440 × 900, 33 перех
 
 - [Luden у Figma](https://www.figma.com/community/file/1700961790605683605) · [Бриф](03_figma_prep/05_Figma_Brief_v0.1.md) · [Покриття 33 AC](03_figma_prep/04_Plan_Review.md)
 - [Кадри та результати візуального огляду](04_design/06_Review_Report.md)
-- [Огляд зауважень і рекомендацій](05_qa/Demo_Chat.html) · [Журнал рев’ю](05_qa/AI_Interaction_Log.md)
+- [Огляд зауважень і рекомендацій](05_qa/Demo_Review_Script.md) · [Журнал рев’ю](05_qa/AI_Interaction_Log.md)
 - [План відеозахисту](05_qa/Defense_Guide.md)
 
 ![Каталог Luden у Figma](04_design/screenshots/figma/S-02-A_catalog.png)
@@ -40,5 +40,5 @@ Luden у Figma містить 15 desktop-кадрів 1440 × 900, 33 перех
 | `01_requirements/` | [Специфікація Release MVP](01_requirements/00_Product_Baseline.md), [Input Pack і Source Check](01_requirements/01_Input_Pack_v0.1.md), [Decision Log](01_requirements/Decision_Log.md) |
 | `02_architecture/` | [Screen Map](02_architecture/02_Screen_Map.md), [Screen Contracts, матриці та Traceability](02_architecture/03_Screen_Contracts.md) |
 | `03_figma_prep/` | [Plan Review](03_figma_prep/04_Plan_Review.md), [Figma Brief](03_figma_prep/05_Figma_Brief_v0.1.md) |
-| `04_design/` | [Review Report і кадри Figma](04_design/06_Review_Report.md), [інвентар](04_design/Figma_Prototype_Inventory.json), [маніфест](04_design/Figma_Export_Manifest.json) |
+| `04_design/` | [Review Report і кадри Figma](04_design/06_Review_Report.md) |
 | `05_qa/` | [Журнал рев’ю](05_qa/AI_Interaction_Log.md), [Defect & Change Log](05_qa/Defect_Change_Log.md), [Test Cases](05_qa/Test_Cases.md) |
