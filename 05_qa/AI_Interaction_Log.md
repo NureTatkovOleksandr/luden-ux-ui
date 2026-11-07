@@ -10,4 +10,4 @@
 | Вимоги | Кожен із 33 AC отримав оцінку за видимим станом і переходами. Відкриті бізнес-рішення залишаються в Decision Log |
 | QA | Зауваження F-01…F-06 прив’язано до кадрів і сценаріїв. Present, серверні перевірки й мінітест мають статус NOT RUN |
 
-[Зауваження](Demo_Review_Script.md) · [Журнал дефектів](Defect_Change_Log.md) · [Кадри](../04_design/06_Review_Report.md)
+[Зауваження](Demo_Review_Script.md) · [Журнал дефектів](Defect_Change_Log.md) · [Кадри](../04_design/06_Review_Report.md) · [Промпти для 33 файлів](File_Prompt_Pack.md)
