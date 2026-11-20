@@ -1,6 +1,6 @@
 # Огляд макета Luden
 
-Актуальний дизайн — [Figma](https://www.figma.com/design/1CKu1SyAbPWcXXN46RHeV2/Luden?node-id=2-52052). Повторно експортовано 15 кадрів і звірено тексти, розміри та налаштовані переходи.
+Галерея містить 15 вихідних PNG зі зрізу `0e0b1dd`. Прогін 2026-11-20 зафіксовано в [Test Cases](../05_qa/Test_Cases.md#перевірки-figma-у-present). [Робочий файл Figma](https://www.figma.com/design/1CKu1SyAbPWcXXN46RHeV2/Luden?node-id=2-52052)
 
 ## Актуальні кадри Figma
 
